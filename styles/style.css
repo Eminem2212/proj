@@ -60,10 +60,24 @@ body {
   font-size: 25px;
 }
 
+@media screen and (max-width: 996px) {
+  .patner {
+    padding-top: 120px;
+  }
+}
+
 .sponsors {
   -webkit-box-pack: end;
       -ms-flex-pack: end;
           justify-content: flex-end;
   display: table;
+}
+
+@media screen and (max-width: 996px) {
+  .sponsors {
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    padding-top: 40px;
+  }
 }
 /*# sourceMappingURL=style.css.map */

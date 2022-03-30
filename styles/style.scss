@@ -46,8 +46,18 @@ body{
 .patner{
     color: green;
     font-size: 25px;
+    @media screen and (max-width: 996px) {
+       
+        padding-top: 120px ;
+       
+    } 
 }
 .sponsors{
     justify-content: flex-end;
     display: table;
+    @media screen and (max-width: 996px) {
+       justify-content: space-around;
+        padding-top: 40px ;
+       
+    } 
 }
