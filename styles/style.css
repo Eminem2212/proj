@@ -2,6 +2,12 @@ body {
   margin: 0;
 }
 
+.navbar {
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+}
+
 .about1 {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
@@ -27,6 +33,12 @@ body {
   padding-top: 20vh;
   font-size: 70px;
   color: green;
+}
+
+@media screen and (max-width: 996px) {
+  .waste1 {
+    font-size: 40px;
+  }
 }
 
 .section1 {

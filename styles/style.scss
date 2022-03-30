@@ -1,7 +1,11 @@
 body{
     margin: 0;
 }
-
+.navbar{
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+}
 .about1{
     justify-content: space-between;
     color: green !important;
@@ -20,6 +24,10 @@ body{
     padding-top: 20vh;
     font-size: 70px;
     color: green;
+    @media screen and (max-width: 996px) {
+       font-size: 40px;
+    }
+
 }
 .section1{
     height: 700px;
