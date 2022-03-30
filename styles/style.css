@@ -29,15 +29,18 @@ body {
   color: green;
 }
 
+.section1 {
+  height: 700px;
+}
+
 .waste2 {
   color: #00000066;
   font-size: 22px;
-  line-height: 35px;
+  line-height: 30px;
 }
 
 .manWaste {
   position: absolute;
-  right: 5vh;
   left: 30vw;
   top: 20vh;
 }
@@ -46,5 +49,21 @@ body {
   .manWaste {
     display: none;
   }
+}
+
+.section2 {
+  background-color: #EEEEEE;
+}
+
+.patner {
+  color: green;
+  font-size: 25px;
+}
+
+.sponsors {
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  display: table;
 }
 /*# sourceMappingURL=style.css.map */

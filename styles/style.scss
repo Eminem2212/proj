@@ -21,17 +21,33 @@ body{
     font-size: 70px;
     color: green;
 }
+.section1{
+    height: 700px;
+}
 .waste2{
     color: #00000066;
     font-size: 22px;
-    line-height: 35px;
+    line-height: 30px;
 }
 .manWaste{
     position: absolute;
-    right: 5vh;
     left: 30vw;
     top: 20vh;
     @media screen and (max-width: 996px) {
         display: none;
     }
+}
+
+.section2{
+
+    background-color:#EEEEEE;
+  
+}
+.patner{
+    color: green;
+    font-size: 25px;
+}
+.sponsors{
+    justify-content: flex-end;
+    display: table;
 }
