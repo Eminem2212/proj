@@ -53,8 +53,8 @@ body {
 
 .manWaste {
   position: absolute;
-  left: 40vw;
-  top: 20vh;
+  left: 30vw;
+  top: 15vh;
 }
 
 @media screen and (max-width: 996px) {
@@ -91,5 +91,11 @@ body {
         justify-content: space-around;
     padding-top: 40px;
   }
+}
+
+.PatnerT {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 /*# sourceMappingURL=style.css.map */

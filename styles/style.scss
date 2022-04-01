@@ -39,8 +39,8 @@ body{
 }
 .manWaste{
     position: absolute;
-    left: 40vw;
-    top: 20vh;
+    left: 30vw;
+    top: 15vh;
     @media screen and (max-width: 996px) {
         display: none;
     }
@@ -68,4 +68,7 @@ body{
         padding-top: 40px ;
        
     } 
+}
+.PatnerT{
+    justify-content: center;
 }
